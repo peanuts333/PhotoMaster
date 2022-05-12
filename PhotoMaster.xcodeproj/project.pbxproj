@@ -16,6 +16,7 @@
 		CE3F55D3282AC3C3004AA841 /* PhotoMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F55D2282AC3C3004AA841 /* PhotoMasterTests.swift */; };
 		CE3F55DD282AC3C3004AA841 /* PhotoMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F55DC282AC3C3004AA841 /* PhotoMasterUITests.swift */; };
 		CE3F55DF282AC3C3004AA841 /* PhotoMasterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3F55DE282AC3C3004AA841 /* PhotoMasterUITestsLaunchTests.swift */; };
+		CE3F56DD282D499F004AA841 /* furo_ducky.png in Resources */ = {isa = PBXBuildFile; fileRef = CE3F56DC282D499F004AA841 /* furo_ducky.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CE3F55D8282AC3C3004AA841 /* PhotoMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3F55DC282AC3C3004AA841 /* PhotoMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoMasterUITests.swift; sourceTree = "<group>"; };
 		CE3F55DE282AC3C3004AA841 /* PhotoMasterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoMasterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE3F56DC282D499F004AA841 /* furo_ducky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = furo_ducky.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +106,9 @@
 				CE3F55BF282AC3C0004AA841 /* ViewController.swift */,
 				CE3F55C1282AC3C0004AA841 /* Main.storyboard */,
 				CE3F55C4282AC3C2004AA841 /* Assets.xcassets */,
+				CE3F56DC282D499F004AA841 /* furo_ducky.png */,
 				CE3F55C6282AC3C2004AA841 /* LaunchScreen.storyboard */,
+				CE3F56DB282D499F004AA841 /* PhotoMaster素材 */,
 				CE3F55C9282AC3C2004AA841 /* Info.plist */,
 			);
 			path = PhotoMaster;
@@ -125,6 +129,13 @@
 				CE3F55DE282AC3C3004AA841 /* PhotoMasterUITestsLaunchTests.swift */,
 			);
 			path = PhotoMasterUITests;
+			sourceTree = "<group>";
+		};
+		CE3F56DB282D499F004AA841 /* PhotoMaster素材 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "PhotoMaster素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3F56DD282D499F004AA841 /* furo_ducky.png in Resources */,
 				CE3F55C8282AC3C2004AA841 /* LaunchScreen.storyboard in Resources */,
 				CE3F55C5282AC3C2004AA841 /* Assets.xcassets in Resources */,
 				CE3F55C3282AC3C0004AA841 /* Main.storyboard in Resources */,
@@ -437,8 +449,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L6F7W488V6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PhotoMaster/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -464,8 +480,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L6F7W488V6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PhotoMaster/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
